@@ -1,0 +1,24 @@
+GET http://localhost:8000/students
+###
+GET http://localhost:8000/students/61556bb494fef4fa3cb
+###
+
+POST http://localhost:8000/students
+Content-Type:application/json
+
+{
+    "name":"Pandey",
+    "address":"7/13-14 bank st Meadowbank, NSW",
+    "email":"gorkha12kilo@gmail.com"
+}
+
+###
+DELETE http://localhost:8000/students/61556bb494fef4fa3cb4fe50
+###
+PATCH  http://localhost:8000/students/6155775794fef4fa3cb4fe53
+Content-Type: application/json
+
+{
+    "name":"Nishant",
+    "email":"pandey@gmail.com"
+}
